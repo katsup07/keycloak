@@ -32,7 +32,7 @@
   - Direct Access Grants: Enabled
   - Valid Redirect URIs: `http://localhost:8081/*`
   - Token lifespans: Access token (15min), Refresh token (30 days)
-  - CORS origins: Explicitly list allowed origins
+  - CORS origins: Explicitly list allowed origins (`http://localhost:3000`, `http://localhost:8081`)
 
 
 ### Phase 2: Backend Development

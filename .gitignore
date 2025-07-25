@@ -1,6 +1,7 @@
 # Environment variables
 .env.local
 .env.production
+src/main/resources/application.properties
 
 # Logs
 logs
@@ -38,3 +39,6 @@ spring.log
 
 # Maven
 .mvn/wrapper/maven-wrapper.jar
+
+#Build artifacts
+server/build/*
